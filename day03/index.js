@@ -3,15 +3,19 @@ var fs = require('fs');
 
 //create a server object:
 http.createServer(function (req, res) {
-
+  const { headers, method, url } = request; 
   var url = req.url;
   
   if (req.url == '/') {
     url = '/index.html';
     res.end(fs.readFileSync(__dirname + url));
+    
+    console.log()
+
+
   }
 
-  console.log('client 접속');
+  console.log('url : ', url);
   //res.write(); //write a response to the client
    //end the response
 
