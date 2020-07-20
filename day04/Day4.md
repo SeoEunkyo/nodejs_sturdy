@@ -10,10 +10,10 @@
 
 코드를 카피해서 실행 시켜봅니다. 
 [http://localhost:8080/](http://localhost:8080/)를 실행시키면 아래와 같이 나오고
-!(https://github.com/SeoEunkyo/nodejs_sturdy/edit/master/day04/get1.png)
+![](https://github.com/SeoEunkyo/nodejs_sturdy/edit/master/day04/get1.png)
 
 [http://localhost:8080/?name=eunkyo&title=escapeCWA](http://localhost:8080/?name=eunkyo&title=escapeCWA)와 같은 주소로 실행시키면
-!(https://github.com/SeoEunkyo/nodejs_sturdy/edit/master/day04/get2.png)
+![](https://github.com/SeoEunkyo/nodejs_sturdy/edit/master/day04/get2.png)
 이렇게 나옵니다. 변화가 느껴지죠 ?  맞습니다. 호출하는 URL 뒤에 이렇게 물은표(?)를 붙이고 원하는 파라미터를 넣어준다면 서버에게 전달할수 있습니다. 
 
 --------
