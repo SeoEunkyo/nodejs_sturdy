@@ -12,8 +12,8 @@ app.use(bodyParser.json());
 //     res.end(' ' + req.body.id);  
 // });  
 const listSample = [
-    {title : '누가 내 초코를 옮겼을까?' , description : '치즈를 옮겨야지.', preview : '그리고 그리고 그리고.', pic : 'https://i.picsum.photos/id/1003/1181/1772.jpg?hmac=oN9fHMXiqe9Zq2RM6XT-RVZkojgPnECWwyEF1RvvTZk'},
-    {title : '난쟁이가 쏘아올린 대포알' , description : '대포알?.' , preview : '그란데 말입니다..' , pic : 'https://i.picsum.photos/id/1011/5472/3648.jpg?hmac=Koo9845x2akkVzVFX3xxAc9BCkeGYA9VRVfLE4f0Zzk'}
+    {id : 1 ,title : '누가 내 초코를 옮겼을까?' , description : '치즈를 옮겨야지.', preview : '그리고 그리고 그리고.', pic : 'https://i.picsum.photos/id/1003/1181/1772.jpg?hmac=oN9fHMXiqe9Zq2RM6XT-RVZkojgPnECWwyEF1RvvTZk'},
+    {id : 2 ,title : '난쟁이가 쏘아올린 대포알' , description : '대포알?.' , preview : '그란데 말입니다..' , pic : 'https://i.picsum.photos/id/1011/5472/3648.jpg?hmac=Koo9845x2akkVzVFX3xxAc9BCkeGYA9VRVfLE4f0Zzk'}
 ]
 
 app.locals.pretty = true;
